@@ -150,7 +150,7 @@ transition={{
             whileHover={{
               scale:1.2
             }}>
-            Хочу</motion.button>
+            Присоединиться</motion.button>
             </div>
 
     

@@ -10,7 +10,7 @@ const Footer = () => {
                       </img>
                   </a>
                 <p>
-                  A&B - лучший отдых
+                  ROMtour - лучший отдых
                 </p>
 </div>
                       <div className='col mb-3'>

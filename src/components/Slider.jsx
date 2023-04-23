@@ -9,12 +9,12 @@ const Slider = () => {
       <Carousel.Item>
         <img width={420} height={700}
           className="d-block w-100"
-          src="./img/first.jpg"
+          src="./img/v.jpg"
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>«Посмотри на мир. Он куда удивительнее cнов»</h3>
+          <p>Рэй Брэдберри</p>
           <Link exact to={'/form'}>
           <Button variant="primary">
             Обратная связь 
@@ -25,27 +25,25 @@ const Slider = () => {
       <Carousel.Item>
         <img width={420} height={700}
           className="d-block w-100"
-          src="./img/second.jpg"
+          src="./img/s.jpg"
           alt="Second slide"
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>«Путешествия лишают тебя дара речи, а потом превращают в лучшего рассказчика»</h3>
+          <p>Ибн Баттута</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img width={420} height={700}
           className="d-block w-100"
-          src="./img/three.jpg"
+          src="./img/pus.jpg"
           alt="Third slide"
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          <h3>«Путешествовать – значит развиваться»</h3>
+          <p>Пьер Бернандо</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
